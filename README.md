@@ -1,4 +1,11 @@
 # プログラミング2、レポート課題5: 「例外に慣れよう」
+### スクリプトについて
+`app/src/main/java/jp/ac/uryukyu/ie/e245719`にまとめています
+- `NullTest.java`
+    - ステップ１、２で使用
+- `IntegerStringTest.java`
+    - ステップ３で使用
+
 ## ステップ1: コードの準備。
 以下のコードを実行する
 ```java
