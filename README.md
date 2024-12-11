@@ -24,6 +24,12 @@ try{
     System.out.println("NullPointerExceptionが発生しました。");
     System.out.println(e.getMessage());
 ```
+実行結果
+```bash
+NullPointerExceptionが発生しました。
+Cannot invoke "String.length()" because "str" is null
+```
+
 
 ## ステップ3: APIリファレンスを参照してみよう。
 1.  String型の変数strに、文字列"壱百満"を代入
@@ -38,5 +44,7 @@ APIリファレンスで調べて解説する
 | -------- | ---------- |
 | static int | parseInt(String s) <br> 文字列の引数を符号付き10進数の整数型として構文解析します。 |
 | static int | parseInt(String s, int radix)  <br> 2番目の引数に指定された基数をもとにして、文字列の引数を符号付き整数として構文解析します。|
+2つ目のメソッドは引数に進数を入力すると10進数以外の桁で変換することができる。しかし今回は10進数の整数型として解析したいため１つ目のメソッドにする。
 
 -  NumberFormatExceptionクラスのスーパークラスを探して解説する
+https://docs.oracle.com/javase/jp/8/docs/api/java/lang/IllegalArgumentException.html
